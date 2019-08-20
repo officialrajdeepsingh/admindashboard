@@ -1,0 +1,269 @@
+/* first not respnsive  */
+
+
+
+
+body{
+    font-family: 'Oxygen', 'Raleway',sans-serif;
+    /* /* font-family: 'Montserrat', sans-serif; */
+   
+    font-size: 20px;
+    background-color: beige
+}
+ .card a{
+    color: black !important;
+}
+a:hover{
+    color: black ;
+    text-decoration: none;
+
+}
+.image{
+    height: 60px;
+    width: 60px;
+}
+
+.btn-secondary {
+    background-color: #343a40 !important;
+    border: none;
+    transition: all 0.3s ease;
+}
+.dropdown-menu{
+    width: 70px;
+    border: none;
+    background-color: #343a40;
+   
+}
+.dropdown-item{
+    color: white;
+}
+
+.btn-secondary:hover {
+        border: none;
+        font-size: 17px;
+        background-color: none;
+}
+.owninput{
+    background-color: transparent;
+    width: 300px;
+    border-radius: 50px;
+}
+.owninput:hover, .owninput:focus{
+    background-color: transparent;
+    color: white
+  
+}
+.card{
+    border: none;
+}
+.ownBody{
+    padding: 0.9em !important;
+}
+.sidebar{
+    background-color: white;
+    height: 585px;
+}
+
+.navbar-brand{
+    color: white;
+    left: -50px;
+}
+
+.ownCard{
+    height: 300px;
+    padding: 0;
+    
+}
+.card-img-top{
+    height: 100px !important;
+}
+.image1{
+    height: 100%;
+    background-image: url(/dist/image/business.jpg)  ;
+}
+.image2{
+    height: 100%;
+    background-image: url(/dist/image/mobile-phone.jpg);
+}
+.card-title{
+    font-size: 1em;
+}
+.card-text{
+    font-size: 0.9em;
+}
+.iconCards{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background-color: rgba(235, 71, 71, 0.425);
+    position: relative;
+    top: -10%;
+    left: 30%;
+}
+.iconCard{
+    font-size: 2em;
+     position: relative;
+     top: 10%;
+     left: 40%;
+     color: white;
+}
+.ownCreate{
+    padding: 20px 20px 0 20px;
+    font-size: 1em; 
+}
+
+  
+ /* signout for css */
+ .modal-content,.modal-footer{
+     border: none;
+
+ }
+ .modal-footer{
+     justify-content: center;
+}
+ 
+
+  /* css for post.html */
+
+  .table-dark{
+    color: black;
+    background-color: white;
+    border: none
+  }
+
+  .table-dark thead th{
+      border-top: none;
+      border-bottom: 1px solid black
+  }
+  .table-dark th, .table-dark td{
+      border: none;
+  }
+
+  .editButton ,.updateButton{
+      width: 80px;
+      border-radius: 1px;
+      background-color: #343a40;
+      color: white;
+      border: none;
+  }
+ 
+  /* css for porfile.html */
+
+  .profileImage{
+      background-image: url(/dist/image/business.jpg);
+      height: 200px;
+      background-color: #cccccc; 
+      background-position: center;
+      background-repeat: no-repeat; 
+      background-size: cover;
+  }
+
+
+.picUpload{
+   border: none;
+   outline: none;
+   color:#000408;
+   font-size: 15px;
+
+}
+  .profileInfo {
+      height: 300px
+  }
+
+  .profileInfo .listItem{
+      list-style: none;
+  }
+  .inOwn{
+      background-color: transparent;
+      border: none;
+  }
+  .inOwn:hover{
+      outline: none;
+      color: rgba(15, 1, 1, 0.562);
+  }
+.inOwn:focus{
+      outline: none;
+}
+
+/* css for help.html */
+.helpList{
+    list-style: none;
+    padding: 1em;
+}
+a{
+    color: black
+}
+
+
+/* css for setting.html */
+
+.title{
+   font-size: 1.3em;
+}
+.profileInfo .form-control{
+    width: 120px;
+    background-color: transparent;
+    border: none;
+    display: inline-block
+   
+}
+.profileInfo .form-control option{
+    background-color: #000408;
+    color: white;
+}
+.mlo{
+    margin-left:  9px!important;
+}
+.profileInfo .form-control:hover,.profileInfo .form-control:focus{
+    color: black;
+    border-color:none;
+    box-shadow:none; 
+  
+}
+.profileInfo .form-control:focus{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+
+/* css for newCreate.html */
+
+.newCreate .form-control{
+    background-color: #6e6e6fe8;
+    border: none;
+    border-radius: 1px;
+    color: black;
+}
+.newCreate .form-control:focus , .newCreate .form-control:hover{
+    color: black;
+    border-color:none;
+    box-shadow:none; 
+}
+.newCreate .form-control::placeholder{
+    color:white
+}
+.newCreate .btn-primary{
+    width: 80px;
+    border: none;
+    border-radius: 2px;
+    background-color: #000408;
+}
+.newCreate .btn-primary:hover{
+    background-color: #226cb6;
+}
+.newCreate .btn-primary:focus{
+    outline: none;
+}
+
+
+/* css test */
+
+#model{
+    position: fixed;
+    width: 500px;
+    top: 20%;
+    left: 30%;
+    background-color: red;
+    display: none;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>dashboard</title>
+<!-- css file  -->
+  <link rel="stylesheet" href="./dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./dist/css/own.css">
+  <!-- google fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Oxygen|Raleway&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<!-- nav bar for website  -->
+<nav class="navbar container-fluid  navbar-expand-lg  navbar-dark sticky-top bg-dark  p-0">
+  
+    <div class="collapse navbar-collapse d-flex justify-content-around " id="navbarTogglerDemo01">
+      <a class="navbar-brand  mr-0 text-capitalize " href="/">logo here </a>
+      <div class="dropdown">
+        <div class="btn btn-secondary dropdown-toggle mr-2 text-capitalize" id="dropdownMenuButton"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          browser
+        </div>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another </a>
+          <a class="dropdown-item" href="#">Something</a>
+        </div>
+      </div>
+      <input class="form-control owninput " type="text" placeholder="Search" aria-label="Search">
+
+      <div class="dropdown mr-2">
+        <div class="btn btn-secondary dropdown-toggle mr-2" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <img src="./dist/image/mobile-phone.jpg" class="rounded-circle image">
+        </div>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="/profile.html">Profile</a>
+          <a class="dropdown-item" href="/setting.html">Settings</a>
+          <a class="dropdown-item" href="/">Sign out </a>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <div class="container-fluid">
+    <div class="row">
+       <!-- sidebar nav for admin dashboard -->
+      <nav class=" col-2 col-sm-2 col-md-2   d-none d-md-block pt-3 sidebar">
+
+        <div class="sidebar-sticky  ">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="/">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/newcreate.html">
+                New Create
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/post.html">
+                Post
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/profile.html">
+                Profile
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/setting.html">
+                Settings
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/help.html">
+                Help
+              </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="" data-toggle="modal" data-target="#exampleModal"> Sign out</a>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-body">
+                        are you sign out !
+                      </div>
+                      <div class="modal-footer text-center ">
+                        <a href="/" class="btn btn-secondary text-center" data-dismiss="modal"> Yes</a>
+                        <a href="/" class="btn btn-secondary text-center" data-dismiss="modal"> Cancel</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- contant side for web site -->
+      <div class="col-md-10  mt-5">
+        <div class="container ml-2 ">
+          <div class="row proFile">
+
+            <div class="col-3  mr-5 ">
+              <div class="profileImage"></div>
+              <form action="/">
+                <input type="file" name="pic" class="picUpload mt-2" accept="image/*">
+              </form>
+            </div>
+
+            <div class="col-8 profileInfo p-1">
+              <h2 class="p-1">Presnol information </h2>
+              <ul>
+                <li class="listItem "> UserName : <input type="text" class="ml-1 mt-2 inOwn" placeholder="Rajdeep"></li>
+                <li class="listItem "> Name : <input type="text" class="ml-1 mt-2 inOwn" placeholder="Rajdeep Singh">
+                </li>
+                <li class="listItem "> Address : <input type="text" class="ml-1 mt-2 inOwn" placeholder="India"></li>
+                <li class="listItem "> City : <input type="text" class="ml-1 mt-2 inOwn" placeholder="Sri Gaganager">
+                </li>
+                <li class="listItem "> Country : <input type="country" class="ml-1 mt-2 inOwn" placeholder="India"></li>
+                <li class="listItem "> Email : <input type="email" class="ml-1 mt-2 inOwn"
+                    placeholder="officialrajdeepsingh@gmail.com"></li>
+                <li class="listItem "> Contact Info : <input type="number" class="ml-1 mt-2 inOwn"
+                    placeholder="919462037034"></li>
+              </ul>
+
+            </div>
+
+            <div class="col-12 w-100 mt-5 ">
+
+                <a href = "mailto: officialrajdeepsingh@gmail.com
+                ">Contact to Author</a>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+<!-- javascript file  -->
+  <script src="./dist/jquery-3.4.1.min.js"></script>
+  <script src="/dist/popover.js"></script>
+  <script src="/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
